@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+
+}
+
+.header .container {
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.Header__logo {
+
+}
+
+.Header__list {
+    margin:0 18px 0 132px;
+}
+
+.Header__list ul{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    
+}
+
+.Header__list li{
+    color: #000;
+}
+
+.Header__list a{
+    font-size: 16px;
+    line-height: 16.2px;
+    color: #000;
+}
+
+.header__btn{
+    display: flex;
+}
+
+.header__btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    margin-right: 18px;
+}
+
+.header__btn-login a{
+
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    
+}
+
+.header__btn-Talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 189px;
+    height: 50px;
+    border-radius: 100px;
+    background: rgb(0, 0, 0);
+}
+
+.header__btn-Talk a{
+    color: #fff;
+    font-size: 18px;
+    /* font-weight: 700; */
+    line-height: 25.2px;
+}
+
+
+/* MAIN */
+
+.main {
+
+}
+
+
+.Finances {
+    
+}
+
+.Finances .container {
+    max-width: 1150px;
+    background-image: url(../img/header/pk.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Get_your_finances {
+    width: 483px;
+    text-align: left;
+}
+
+.Get_your_finances h1{
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 82.8px;
+    margin-top: 90px;
+    margin-bottom: 21px;
+}
+
+.Get_your_finances p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+
+.Switching {
+    margin-top: 79px;
+    margin-bottom: 27px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.btn_main_talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 61px;
+    border-radius: 100px;
+    background: rgb(0, 0, 0);
+}
+
+.btn_main_talk a{
+    
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+
+/* best__finance */
+
+
+.best__finance {
+    margin-top: 180px;
+    
+}
+
+.best__finance .container {
+    max-width: 1150px;
+    
+}
+
+.seventy {
+    
+    display: flex;
+}
+
+.text_seventy {
+    margin-left: 104px;
+    text-align: left;
+    width: 564px;
+}
+
+.text_seventy h1{
+    width: 443px;
+    height: 173px;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.text_seventy p{
+    width: 515px;
+    height: 123px;
+    font-size: 20px;
+    line-height: 30.6px;
+}
+
+.text_seventy a{
+    text-decoration: underline;
+    color: #335C81;
+}
+
+/* Why_Switch& */
+
+.Switch {
+
+}
+.Switch .container {
+   
+}
+.Why_Switch {
+    margin-top: 241px;
+    margin: 241px 260px 0 146px;
+
+}
+
+.Why_Switch h1{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.list_why_switch{
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+}
+
+.Powerful_software p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 295px;
+}
+
+.list_why_switch h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 24px 0 10px 0;
+}
+
+.track_crashflow p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 292px;
+}
+
+.track_crashflow h2{
+
+}
+
+.Award_winning_support p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 272px;
+}
+
+.Btn_Discover{
+    margin-top: 71px;
+    margin-bottom: 126px;
+    width: 235px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: rgb(247, 178, 183);
+}
+
+.Btn_Discover a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+
+
+/* Plans_built */
+
+.plans {
+    
+}
+.plans .container {
+    
+    width: 1440px;
+    height: 705px;
+    background: #FDECED;
+    
+}
+.Plans_built {
+    margin: 88px 260px 72px 145px;
+}
+
+.Plans_built h1{
+    padding-top: 88px;
+}
+.List_Plans_built {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+
+}
+
+.List_Plans_built h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 24px 0 10px 0;
+}
+
+.Early_stage_startup p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    
+    width: 269px;
+}
+
+.track_crashflow p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 290px;
+}
+.Award_winning_support p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 284px;
+}
+
+
+/* join */
+
+.join {
+
+}
+
+.join .container {
+    
+    
+}
+
+.Join_amazing {
+    margin-left: 146px;
+    display: flex;
+    justify-content:left;
+    align-items:self-start;
+    
+
+}
+
+.Join_amazing img{
+    margin-top: 108px;
+}
+
+.Join_amazing h2{
+    margin-top: 129px;
+    margin-right: 99px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 220px;
+}
+
+/* HuB */
+
+.Hub {
+   
+}
+
+.Hub .container {
+    margin-top: 228px;
+    max-width: 1150px;
+    
+}
+
+.AC_Hub {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.AC_Hub h1{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 57.6px;
+    
+}
+
+.AC_Hub p{
+    width: 547px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.6px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+.btn_Hub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    border-radius: 100px;
+    background: rgb(247, 178, 183);
+    width: 140px;
+    height: 50px;
+}
+
+.btn_Hub a{
+    color: #000;
+}
+
+/* READY */
+
+.READY {
+   
+    
+}
+
+.READY .container {
+    margin-top: 186px;
+    width: 1150px;
+    height: 283px;
+    border-radius: 10px;
+    background: #8BD4D6;
+}
+
+.Ready_to_Switch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.text_Ready_to_Switch {
+    margin: 90px 0;
+    
+}
+
+.text_Ready_to_Switch h1{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 55.8px;
+}
+
+.text_Ready_to_Switch p{
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+
+.btn_Ready_to_Switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    border-radius: 100px;
+    background: rgb(0, 0, 0);
+    width: 140px;
+    height: 50px;
+}
+
+.btn_Ready_to_Switch a{
+    color: #fff;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: #302E3F;
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: 108px;
+}
+
+.footer .container {
+    max-width: 1150px;
+    
+    height: 631px;
+
+
+}
+
+.finance_team{
+    
+}
+
+.finance_team h2{
+    color: #fff;
+}
+
+.H_finance_team{
+    gap: 18px;
+    padding: 45px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text_finance_team {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    
+}
+
+.text_finance_team h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+
+.text_finance_team li {
+    line-height: 1.8; /* Межстрочное расстояние */
+   }
+
+.text_finance_team a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.2px;
+    color: rgb(197, 233, 234);
+}
+
+.List_Finance_team_1 {
+
+}
+
+.List_Finance_team_2 {
+
+}
+
+.List_Finance_team_3 {
+    
+}
+
+.List_Finance_team_4 {
+
+}
+
+.List_Finance_team_5 {
+
+}
+
+.List_Lst{
+    margin-top: 81px;
+    margin-bottom: 52px;
+}
+
+.List_Finance_team_6 {
+
+}
+
+.List_Finance_team_6 h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+
+.List_Finance_team_6 li {
+    line-height: 1.8; /* Межстрочное расстояние */
+   }
+
+.List_Finance_team_6 a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.2px;
+    color: rgb(197, 233, 234);
+}
+
+.List_Finance_team_7 ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 27px;
+    
+}
+
+.List_Finance_team_7 a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.2px;
+    color: rgb(197, 233, 234);
+}
